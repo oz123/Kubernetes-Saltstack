@@ -16,7 +16,7 @@ kubernetes:
       node03:
         hostname: master03.domain.tld
         ipaddr: 10.240.0.30
-    encryption-key: 'w3RNESCMG+o3GCHTUcrQUUdq6CFV72q/Zik9LAO8uEc='
+    encryption-key: 'CHANGETHIS'
     etcd:
       version: v3.3.8
   worker:
@@ -34,7 +34,7 @@ kubernetes:
         calicoctl-version: v3.1.1
         controller-version: 3.1-release
         as-number: 64512
-        token: hu0daeHais3aCHANGEMEhu0daeHais3a
+        token: CHANGETHIS
         ipv4:
           range: 192.168.0.0/16
           nat: true
@@ -48,5 +48,5 @@ kubernetes:
     clusterIP-range: 10.32.0.0/16
     helm-version: v2.8.2
     dashboard-version: v1.8.3
-    admin-token: Haim8kay1rarCHANGEMEHaim8kay1rar
-    kubelet-token: ahT1eipae1wiCHANGEMEahT1eipae1wi  
+    admin-token: CHANGETHIS
+    kubelet-token: CHANGETHIS  
